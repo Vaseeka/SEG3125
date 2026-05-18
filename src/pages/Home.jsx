@@ -1,3 +1,40 @@
+import Project from '../components/Project';
+import serviceImg from '../assets/service.jpg';
+
+function Home() {
+  return (
+    <div className="container">
+        <div class="text-center display-2"><code>Vaseeka Balachandiran</code></div>
+        <div class="text-center display-6"><code>Software Engineer</code></div>
+        <div className="container my-4 border">
+            <div className="row">
+                <div class="text-center align-self-center display-4 col-4">About Me</div>
+                <div class="text-start lead col-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, distinctio quod corporis magni amet asperiores temporibus. Quas culpa voluptatem eum saepe ratione? Quaerat maiores dolorum corrupti voluptatibus quae quibusdam ratione.</div>
+            </div>
+            
+        </div>
+        <div className="container my-3 border">
+            <div className="row">
+                
+                <div class="text-start lead col-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, distinctio quod corporis magni amet asperiores temporibus. Quas culpa voluptatem eum saepe ratione? Quaerat maiores dolorum corrupti voluptatibus quae quibusdam ratione.</div>
+                <div class="text-center align-self-center display-4 col-4">How I Work</div>
+            </div>   
+        </div>
+
+
+        <div className="row mt-4">
+
+            <Project title="Service Site" image={serviceImg}/>
+
+      </div>
+    </div>
+  );
+}
+
+export default Home;
+
+/*
+
 function Home() {
   return (
     <div className="container">
@@ -46,3 +83,4 @@ function Home() {
 }
 
 export default Home;
+*/

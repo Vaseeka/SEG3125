@@ -1,26 +1,16 @@
-import { Link } from 'react-router-dom';
-
-function Project({ title, image, link }) {
+function Project({ title, image }) {
   return (
-    <div className="col-md-6 col-lg-3 mb-4">
+    <div className="col-6 mb-3">
 
-      <Link to={link} className="text-decoration-none">
+      <div className="border text-center">
 
-        <div className="project-card">
+        <img src={image} alt={title} style={{ width: "100%", height: "150px", objectFit: "cover" }}/>
 
-          <img
-            src={image}
-            alt={title}
-            className="project-image"
-          />
-
-          <div className="overlay">
-            <h3>{title}</h3>
-          </div>
-
+        <div className="p-2">
+          {title}
         </div>
 
-      </Link>
+      </div>
 
     </div>
   );
