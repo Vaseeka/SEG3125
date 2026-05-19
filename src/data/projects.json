@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Service Site",
+    "image": "/images/service.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Memory Game",
+    "image": "/images/memory-game.jpg"
+  },
+  {
+    "id": 3,
+    "title": "E-Commerce Site",
+    "image": "/images/e-commerce.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Analytics Dashboard",
+    "image": "/images/analytics.jpg"
+  }
+]

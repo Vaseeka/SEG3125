@@ -1,8 +1,5 @@
 import Project from '../components/Project';
-import serviceImg from '../assets/service.jpg';
-import memoryImg from '../assets/memory-game.jpg';
-import ecommerceImg from '../assets/e-commerce.jpg';
-import analyticsImg from '../assets/analytics.jpg';
+import projects from '../data/projects.json';
 
 function Home() {
   return (
@@ -29,10 +26,9 @@ function Home() {
 
         <div className="row mt-3">
 
-            <Project title="Service Site" image={serviceImg} />
-            <Project title="Memory Game" image={memoryImg} />
-            <Project title="E-Commerce Site" image={ecommerceImg} />
-            <Project title="Analytics Dashboard" image={analyticsImg} />
+            {projects.map((project) => (
+            <Project key={project.id} title={project.title} image={project.image}/>
+            ))}
 
         </div>
     </div>
