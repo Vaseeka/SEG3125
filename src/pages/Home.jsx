@@ -1,6 +1,95 @@
+import './Home.css';
+
 import Project from '../components/Project';
 import projects from '../data/projects.json';
 
+function Home() {
+  return (
+    <div className="container-fluid app-background py-5">
+        <div className="container pb-5">
+
+        {/* HERO */}
+        
+        <div className="hero-wrapper">
+            <div className="hero-name text-center display-2">
+                Vaseeka Balachandiran
+            </div>
+
+            <div className="hero-subtitle text-center display-6">
+                Software Engineer
+            </div>
+        </div>
+
+        {/* ABOUT ME */}
+        <div className="container my-4 section-box">
+
+            <div className="row"> 
+
+            <div className="section-heading text-center align-self-center display-4 col-4">
+                About Me
+            </div>
+
+            <div className="section-content text-start lead col-8">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ea, distinctio quod corporis magni amet asperiores temporibus.
+                Quas culpa voluptatem eum saepe ratione?
+            </div>
+
+            </div>
+
+        </div>
+
+        {/* HOW I WORK */}
+        <div className="container my-4 section-box">
+
+            <div className="row">
+
+            <div className="section-content text-start lead col-8">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ea, distinctio quod corporis magni amet asperiores temporibus.
+                Quas culpa voluptatem eum saepe ratione?
+            </div>
+
+            <div className="section-heading text-center align-self-center display-4 col-4">
+                How I Work
+            </div>
+
+            </div>
+
+        </div>
+
+        {/* CASE STUDIES */}
+        <div className="case-study-section">
+
+            <h2 className="case-study-heading display-5">
+            Case Studies
+            </h2>
+
+            <div className="row g-3 mt-3">
+
+            {projects.map((project, index) => (
+            <Project
+                key={project.id}
+                title={project.title}
+                image={project.image}
+                link={project.link}
+                titleTop={index < 2}
+                position={index < 2 ? "top-card" : "bottom-card"}
+            />
+            ))}
+
+            </div>
+
+        </div>
+
+        </div>
+    </div>
+  );
+}
+
+export default Home;
+
+/*
 function Home() {
   return (
     <div className="container">
@@ -48,6 +137,8 @@ function Home() {
 }
 
 export default Home;
+
+*/
 
 /*
 

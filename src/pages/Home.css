@@ -1,0 +1,109 @@
+/* ===== HOME COLOR PALETTE ===== */
+
+:root {
+  --bg-main: #83C5BE;
+  --bg-dark: #006D77;
+  --bg-light: #EDF6F9;
+
+  --text-dark: #006D77;
+  --text-light: #EDF6F9;
+}
+
+/* ===== PAGE ===== */
+
+body {
+  background-color: var(--bg-main);
+}
+
+.app-background {
+  background-color: var(--bg-main);
+
+  min-height: 100vh;
+}
+
+/* ===== HERO SECTION ===== */
+
+.hero-name {
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+
+  margin-top: 2rem;
+
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.hero-subtitle {
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+
+  padding-bottom: 4rem;
+  margin-bottom: 4rem;
+
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.hero-wrapper {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  background-color: #2F4156;
+}
+
+/* ===== ABOUT / HOW SECTIONS ===== */
+
+.section-box {
+  padding: 0;
+
+  overflow: hidden;
+
+  border-radius: 16px;
+
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.section-heading {
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+
+  padding: 3rem;
+}
+
+.section-content {
+  background-color: var(--bg-light);
+
+  color: var(--text-dark);
+
+  padding: 3rem;
+}
+
+/* ===== CASE STUDY SECTION ===== */
+
+.case-study-section {
+  position: relative;
+
+  margin-top: 60px;
+}
+
+.case-study-heading {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+
+  padding: 14px 36px;
+
+  border-radius: 12px;
+
+  z-index: 10;
+
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}

@@ -1,37 +1,23 @@
 import { Link } from 'react-router-dom';
 import './Project.css';
 
-function Project({ title, image, link, titleTop }) {
+function Project({ title, image, link, titleTop, position }) {
   return (
-    <div className="col-6 mb-4">
+    <div className="col-6">
 
       <Link to={link} className="text-decoration-none text-dark">
 
-        <div className="project-card">
+  <div className={`project-card ${position}`}>
 
-          {/* TITLE ON TOP */}
-          {titleTop && (
-            <div className="project-title">
-              {title}
-            </div>
-          )}
+    {titleTop && <div className="project-title">{title}</div>}
 
-          <img
-            src={image}
-            alt={title}
-            className="project-image"
-          />
+    <img src={image} alt={title} className="project-image" />
 
-          {/* TITLE ON BOTTOM */}
-          {!titleTop && (
-            <div className="project-title">
-              {title}
-            </div>
-          )}
+    {!titleTop && <div className="project-title">{title}</div>}
 
-        </div>
+  </div>
 
-      </Link>
+</Link>
 
     </div>
   );
