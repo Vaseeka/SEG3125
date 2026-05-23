@@ -4,7 +4,10 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 //import './App.css'
 
+import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
+import Service from './pages/Service';
+
 /*
 import Service from './pages/Service';
 import MemoryGame from './pages/MemoryGame';
@@ -15,7 +18,10 @@ import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom'
 
 function App() {
   return (
-    <Home />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/service" element={<Service />} />
+    </Routes>
   );
 }
 

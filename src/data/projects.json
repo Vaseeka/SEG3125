@@ -2,21 +2,25 @@
   {
     "id": 1,
     "title": "Service Site",
-    "image": "/images/service.jpg"
+    "image": "/images/service.jpg",
+    "link": "/service"
   },
   {
     "id": 2,
     "title": "Memory Game",
-    "image": "/images/memory-game.jpg"
+    "image": "/images/memory-game.jpg",
+    "link": "/memory"
   },
   {
     "id": 3,
     "title": "E-Commerce Site",
-    "image": "/images/e-commerce.jpg"
+    "image": "/images/e-commerce.jpg",
+    "link": "/ecommerce"
   },
   {
     "id": 4,
     "title": "Analytics Dashboard",
-    "image": "/images/analytics.jpg"
+    "image": "/images/analytics.jpg",
+    "link": "/analytics"
   }
 ]

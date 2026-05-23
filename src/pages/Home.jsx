@@ -27,7 +27,7 @@ function Home() {
         <div className="row mt-3">
 
             {projects.map((project) => (
-            <Project key={project.id} title={project.title} image={project.image}/>
+            <Project key={project.id} title={project.title} image={project.image} link={project.link}/>
             ))}
 
         </div>
