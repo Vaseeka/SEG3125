@@ -22,13 +22,25 @@ function Home() {
         </div>
 
 
-        <h2 className="mt-5 text-center">Case Studies</h2>
+        <div className="case-study-section">
 
-        <div className="row mt-3">
+            <h2 className="case-study-heading">
+                Case Studies
+            </h2>
 
-            {projects.map((project) => (
-            <Project key={project.id} title={project.title} image={project.image} link={project.link}/>
-            ))}
+            <div className="row mt-3">
+
+                {projects.map((project, index) => (
+                <Project
+                    key={project.id}
+                    title={project.title}
+                    image={project.image}
+                    link={project.link}
+                    titleTop={index < 2}
+                />
+                ))}
+
+            </div>
 
         </div>
     </div>

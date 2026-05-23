@@ -32,3 +32,28 @@
   font-weight: 500;
   font-size: 14px;
 }
+
+/* SECTION WRAPPER */
+.case-study-section {
+  position: relative;
+  margin-top: 100px;
+}
+
+/* OVERLAPPING TITLE */
+.case-study-heading {
+  position: absolute;
+
+  top: 40%;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  background: white;
+
+  padding: 10px 30px;
+
+  font-size: 3rem;
+  font-weight: bold;
+
+  z-index: 10;
+}
