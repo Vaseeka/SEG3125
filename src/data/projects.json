@@ -9,12 +9,12 @@
     "id": 2,
     "title": "Memory Game",
     "image": "/images/memory-game.jpg",
-    "link": "/memory"
+    "link": "/memory-game"
   },
   {
     "id": 3,
     "title": "E-Commerce Site",
-    "image": "/images/e-commerce.jpg",
+    "image": "/images/ecommerce.jpg",
     "link": "/ecommerce"
   },
   {
