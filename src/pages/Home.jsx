@@ -8,7 +8,7 @@ function Home() {
     <div className="container-fluid home pb-4">
         <div className="container pb-4">
 
-            {/* ===== Header ===== */}
+            {/* ----- Header ----- */}
             
             <div className="home-header-wrapper">
                 <div className="home-header-title text-center display-2 fw-medium pt-3 pb-3 mt-0">
@@ -20,11 +20,11 @@ function Home() {
                 </div>
             </div>
 
-            {/* ===== About Me Section ===== */}
+            {/* ----- About Me Section ----- */}
 
             <div className="container home-section-wrapper">
                 <div className="row"> 
-                    <div className="home-section-title text-center align-self-center display-4 fw-medium col-4">
+                    <div className="home-section-title text-center display-4 fw-medium col-4">
                         About Me
                     </div>
 
@@ -36,7 +36,7 @@ function Home() {
                 </div>
             </div>
 
-            {/* ===== How I Work Section ===== */}
+            {/* ----- How I Work Section ----- */}
 
             <div className="container home-section-wrapper">
                 <div className="row">
@@ -46,16 +46,16 @@ function Home() {
                         Quas culpa voluptatem eum saepe ratione?
                     </div>
 
-                    <div className="home-section-title text-center align-self-center display-4 fw-medium col-4">
+                    <div className="home-section-title text-center display-4 fw-medium col-4">
                         How I Work
                     </div>
                 </div>
             </div>
 
-            {/* ===== My Projects Section ===== */}
+            {/* ----- My Projects Section ----- */}
 
             <div className="home-projects-wrapper mt-5">
-                <div className="home-projects-title display-4 fw-medium">
+                <div className="home-projects-title display-4 fw-medium p-4">
                     My Projects
                 </div>
 

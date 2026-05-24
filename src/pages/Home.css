@@ -1,4 +1,4 @@
-/* ===== Home Page Colour Palette ===== */
+/* ----- Home Page Colour Palette ----- */
 
 :root {
   --bg-home: #83C5BE;
@@ -9,14 +9,14 @@
   --text-home-light: #EDF6F9;
 }
 
-/* ===== Home Page ===== */
+/* ----- Home Page ----- */
 
 .home {
   background-color: var(--bg-home);
   min-height: 100%;
 }
 
-/* ===== Home Page Headings ===== */
+/* ----- Home Page Headings ----- */
 
 .home-header-wrapper {
   background-color: var(--bg-home-dark);
@@ -35,29 +35,39 @@
   border-bottom-right-radius: 16px;
 }
 
-/* ===== Home Page Body ===== */
+/* ----- Home Page Body ----- */
 
 .home-section-wrapper {
   overflow: hidden;
   border-radius: 16px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
   margin-top: 1.5rem;
-  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.home-section-wrapper .row {
+  display: flex;
+  align-items: stretch;
 }
 
 .home-section-title {
   background-color: var(--bg-home-dark);
   color: var(--text-home-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 3rem;
 }
 
 .home-section-body {
   background-color: var(--bg-home-light);
   color: var(--text-home-dark);
+  display: flex;
+  align-items: center;
   padding: 3rem;
 }
 
-/* ===== Home Page My Projects Section ===== */
+/* ----- Home Page My Projects Section ----- */
 
 .home-projects-wrapper {
   position: relative;

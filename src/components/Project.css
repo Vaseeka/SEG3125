@@ -1,4 +1,4 @@
-/* ===== Base Project Card ===== */
+/* ----- Base Project Card ----- */
 
 .project-card {
   border-radius: 16px;
@@ -8,7 +8,7 @@
   cursor: pointer;
 }
 
-/* ===== Project Card Image ===== */
+/* ----- Project Card Image ----- */
 
 .project-image {
   width: 100%;
@@ -17,7 +17,7 @@
   transition: transform 0.25s ease;
 }
 
-/* ===== Project Card Title ===== */
+/* ----- Project Card Title ----- */
 
 .project-title {
   background-color: var(--bg-home-dark);
@@ -30,41 +30,39 @@
   border-bottom: 1px solid rgba(255,255,255,0.15);
 }
 
-/* ===== Project Card Hover Shadow Effect ===== */
+/* ----- Project Card Hover Shadow Effect ----- */
 
 .project-card:hover {
   box-shadow: 0 18px 30px rgba(0, 0, 0, 0.18);
 }
 
-/* ===== Project Card Image Zoom ===== */
+/* ----- Project Card Image Zoom ----- */
 
 .project-card:hover .project-image {
   transform: scale(1.05);
 }
 
-/* ================================================== */
-/* Project Card Unique Diagonal Hover Movement Effect */
-/* ================================================== */
+/* ===== Project Card Unique Diagonal Hover Movement Effect ===== */
 
-/* ===== Top-Left Project Card ===== */
+/* ----- Top-Left Project Card ----- */
 
 .pos-0:hover {
   transform: translate(-12px, -12px) scale(1.03);
 }
 
-/* ===== Top-Right Project Card ===== */
+/* ----- Top-Right Project Card ----- */
 
 .pos-1:hover {
   transform: translate(12px, -12px) scale(1.03);
 }
 
-/* ===== Bottom-Left Project Card ===== */
+/* ----- Bottom-Left Project Card ----- */
 
 .pos-2:hover {
   transform: translate(-12px, 12px) scale(1.03);
 }
 
-/* ===== Bottom-Right Project Card ===== */
+/* ----- Bottom-Right Project Card ----- */
 
 .pos-3:hover {
   transform: translate(12px, 12px) scale(1.03);
