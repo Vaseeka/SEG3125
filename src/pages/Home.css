@@ -63,8 +63,9 @@
   background-color: var(--bg-home-light);
   color: var(--text-home-dark);
   display: flex;
-  align-items: center;
-  padding: 3rem;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
 }
 
 /* ----- Home Page My Projects Section ----- */

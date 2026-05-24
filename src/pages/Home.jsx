@@ -29,9 +29,21 @@ function Home() {
                     </div>
 
                     <div className="home-section-body text-start lead col-8">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Ea, distinctio quod corporis magni amet asperiores temporibus.
-                        Quas culpa voluptatem eum saepe ratione?
+                        <p>
+                            Hello, I'm Vaseeka Balachandiran, an enthusiastic Software 
+                            Engineering student studying at the University of Ottawa in 
+                            hopes of pursuing a career in software development. I'm 
+                            always eager to meet new people and make the most of opportunities. 
+                            I'm a hard worker who has achieved many academic awards 
+                            throughout high school and placed on the Dean's Honour List 
+                            during university.
+                        </p>
+                        <p>
+                            Currently, I'm working on creating my own video game. This 
+                            is a project that I began around four years ago, born from 
+                            my passion for programming and my childhood fondness for 
+                            video games.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -44,6 +56,22 @@ function Home() {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Ea, distinctio quod corporis magni amet asperiores temporibus.
                         Quas culpa voluptatem eum saepe ratione?
+
+                        <p>
+                            Hello, I'm Vaseeka Balachandiran, an enthusiastic Software 
+                            Engineering student studying at the University of Ottawa in 
+                            hopes of pursuing a career in software development. I'm 
+                            always eager to meet new people and make the most of opportunities. 
+                            I'm a hard worker who has achieved many academic awards 
+                            throughout high school and placed on the Dean’s Honour List 
+                            during university.
+                        </p>
+                        <p>
+                            Currently, I am working on creating my own video game. This 
+                            is a project that I began around four years ago, born from 
+                            my passion for programming and my childhood fondness for 
+                            video games.
+                        </p>
                     </div>
 
                     <div className="home-section-title text-center display-4 fw-medium col-4">
