@@ -1,9 +1,9 @@
 import './ComingSoon.css';
 
-function ECommerce() {
+function Ecommerce() {
   return (
     <code className="coming-soon display-2 fw-medium">E-Commerce Site - Coming Soon</code>
   );
 }
 
-export default ECommerce;
+export default Ecommerce;
