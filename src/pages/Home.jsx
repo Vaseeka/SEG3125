@@ -34,15 +34,16 @@ function Home() {
                             Engineering student studying at the University of Ottawa in 
                             hopes of pursuing a career in software development. I'm 
                             always eager to meet new people and make the most of opportunities. 
-                            I'm a hard worker who has achieved many academic awards 
+                            I'm also a hard worker who has achieved many academic awards 
                             throughout high school and placed on the Dean's Honour List 
                             during university.
                         </p>
                         <p>
-                            Currently, I'm working on creating my own video game. This 
-                            is a project that I began around four years ago, born from 
-                            my passion for programming and my childhood fondness for 
-                            video games.
+                            Over the years, I've had the chance to perfect my skills 
+                            in several different coding languages, including Bash, Python, 
+                            Java, C++, HTML, CSS, Javascript and Ruby. I also love the 
+                            challenge and process of breaking down a problem and working 
+                            towards a solution.
                         </p>
                     </div>
                 </div>
@@ -53,24 +54,24 @@ function Home() {
             <div className="container home-section-wrapper">
                 <div className="row">
                     <div className="home-section-body text-start lead col-8">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Ea, distinctio quod corporis magni amet asperiores temporibus.
-                        Quas culpa voluptatem eum saepe ratione?
-
                         <p>
-                            Hello, I'm Vaseeka Balachandiran, an enthusiastic Software 
-                            Engineering student studying at the University of Ottawa in 
-                            hopes of pursuing a career in software development. I'm 
-                            always eager to meet new people and make the most of opportunities. 
-                            I'm a hard worker who has achieved many academic awards 
-                            throughout high school and placed on the Dean’s Honour List 
-                            during university.
+                            I've designed both a promotional and educational website 
+                            with others for high school and university courses in the 
+                            past but I'm also currently taking a UI design course to 
+                            further improve my web designing capabilities. You can view 
+                            the course <a href="https://www.nngroup.com/" target="_blank">
+                                here
+                            </a>.
                         </p>
                         <p>
-                            Currently, I am working on creating my own video game. This 
-                            is a project that I began around four years ago, born from 
-                            my passion for programming and my childhood fondness for 
-                            video games.
+                            I've also been utilising resources such as <a href="https://www.nngroup.com/" target="_blank">
+                                NN/g
+                            </a> and <a href="https://medium.com/" target="_blank">
+                                Medium
+                            </a> to learn more about how to design a good website and <a href="https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg" target="_blank">
+                                Net Ninja
+                            </a> to learn more about how to create websites using Bootstrap and 
+                            React.
                         </p>
                     </div>
 
