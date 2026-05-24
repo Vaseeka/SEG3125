@@ -1,8 +1,8 @@
+import './ComingSoon.css';
+
 function MemoryGame() {
   return (
-    <div className="container">
-        <h1>Coming Soon</h1>
-    </div>
+    <div className="coming-soon display-2 fw-semibold">Memory Game - Coming Soon</div>
   );
 }
 

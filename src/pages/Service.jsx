@@ -1,8 +1,8 @@
+import './ComingSoon.css';
+
 function Service() {
   return (
-    <div className="container">
-        <h1>Coming Soon</h1>
-    </div>
+    <div className="coming-soon display-2 fw-semibold">Service Site - Coming Soon</div>
   );
 }
 

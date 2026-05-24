@@ -5,8 +5,8 @@ import projects from '../data/projects.json';
 
 function Home() {
   return (
-    <div className="container-fluid app-background py-5">
-        <div className="container pb-5">
+    <div className="container-fluid app-background pb-4">
+        <div className="container pb-4">
 
         {/* HERO */}
         
@@ -58,14 +58,14 @@ function Home() {
 
         </div>
 
-        {/* CASE STUDIES */}
+        {/* My Projects Section */}
         <div className="case-study-section">
 
             <h2 className="case-study-heading display-5">
             Case Studies
             </h2>
 
-            <div className="row g-3 mt-3">
+            <div className="row g-3">
 
             {projects.map((project, index) => (
             <Project
@@ -73,8 +73,8 @@ function Home() {
                 title={project.title}
                 image={project.image}
                 link={project.link}
-                titleTop={index < 2}
-                position={index < 2 ? "top-card" : "bottom-card"}
+                index={index}
+                labelTop={index < 2}
             />
             ))}
 

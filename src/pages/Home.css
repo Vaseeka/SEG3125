@@ -11,14 +11,9 @@
 
 /* ===== PAGE ===== */
 
-body {
-  background-color: var(--bg-main);
-}
-
 .app-background {
   background-color: var(--bg-main);
-
-  min-height: 100vh;
+  min-height: 100%;
 }
 
 /* ===== HERO SECTION ===== */
@@ -27,10 +22,10 @@ body {
   background-color: var(--bg-dark);
   color: var(--text-light);
 
-  padding-top: 4rem;
+  padding-top: 1rem;
   padding-bottom: 1rem;
 
-  margin-top: 2rem;
+  margin-top: 0;
 
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
@@ -40,7 +35,7 @@ body {
   background-color: var(--bg-dark);
   color: var(--text-light);
 
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
   margin-bottom: 4rem;
 
   border-bottom-left-radius: 16px;
