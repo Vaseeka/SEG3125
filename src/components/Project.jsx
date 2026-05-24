@@ -3,7 +3,7 @@ import './Project.css';
 
 function Project({ title, image, link, index, topProject }) {
   return (
-    <Link to={link} className="projec-link col-6">
+    <Link to={link} className="project-link text-decoration-none col-6">
       <div className={`project-card pos-${index}`}>
 
         {/* ===== Top Row Project (project title is displayed on top of image) ===== */}
