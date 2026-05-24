@@ -2,7 +2,7 @@ import './ComingSoon.css';
 
 function Analytics() {
   return (
-    <div className="coming-soon display-2 fw-semibold">Analytics Site - Coming Soon</div>
+    <code className="coming-soon display-2 fw-medium">Analytics Site - Coming Soon</code>
   );
 }
 

@@ -1,104 +1,78 @@
-/* ===== HOME COLOR PALETTE ===== */
+/* ===== Colour Palettes ===== */
 
 :root {
-  --bg-main: #83C5BE;
-  --bg-dark: #006D77;
-  --bg-light: #EDF6F9;
+    /* ===== Home Page Colour Palette ===== */
+  --bg-home: #83C5BE;
+  --bg-home-dark: #006D77;
+  --bg-home-light: #EDF6F9;
 
-  --text-dark: #006D77;
-  --text-light: #EDF6F9;
+  --text-home-dark: #006D77;
+  --text-home-light: #EDF6F9;
 }
 
-/* ===== PAGE ===== */
+/* ===== Home Page ===== */
 
-.app-background {
-  background-color: var(--bg-main);
+.home {
+  background-color: var(--bg-home);
   min-height: 100%;
 }
 
-/* ===== HERO SECTION ===== */
+/* ===== Home Page Headings ===== */
 
-.hero-name {
-  background-color: var(--bg-dark);
-  color: var(--text-light);
+.home-header-wrapper {
+  background-color: var(--bg-home-dark);
+  color: var(--text-home-light);
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
 
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-
-  margin-top: 0;
-
+.home-header-title {
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
 }
 
-.hero-subtitle {
-  background-color: var(--bg-dark);
-  color: var(--text-light);
-
-  padding-bottom: 2rem;
-  margin-bottom: 4rem;
-
+.home-header-subtitle {
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
 }
 
-.hero-wrapper {
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
-  background-color: #2F4156;
-}
+/* ===== Home Page Body ===== */
 
-/* ===== ABOUT / HOW SECTIONS ===== */
-
-.section-box {
-  padding: 0;
-
+.home-section-wrapper {
   overflow: hidden;
-
   border-radius: 16px;
-
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  margin-top: 1.5rem;
+  margin-top: 1.5rem;
 }
 
-.section-heading {
-  background-color: var(--bg-dark);
-  color: var(--text-light);
-
+.home-section-title {
+  background-color: var(--bg-home-dark);
+  color: var(--text-home-light);
   padding: 3rem;
 }
 
-.section-content {
-  background-color: var(--bg-light);
-
-  color: var(--text-dark);
-
+.home-section-body {
+  background-color: var(--bg-home-light);
+  color: var(--text-home-dark);
   padding: 3rem;
 }
 
-/* ===== CASE STUDY SECTION ===== */
+/* ===== Home Page My Projects Section ===== */
 
-.case-study-section {
+.home-projects-wrapper {
   position: relative;
-
-  margin-top: 60px;
 }
 
-.case-study-heading {
+.home-projects-title {
+  background-color: var(--bg-home-dark);
+  color: var(--text-home-light);
   position: absolute;
-
   top: 50%;
   left: 50%;
-
   transform: translate(-50%, -50%);
-
-  background-color: var(--bg-dark);
-  color: var(--text-light);
-
   padding: 14px 36px;
-
   border-radius: 12px;
-
   z-index: 10;
-
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
 }

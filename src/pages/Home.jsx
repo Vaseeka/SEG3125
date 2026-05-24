@@ -5,189 +5,76 @@ import projects from '../data/projects.json';
 
 function Home() {
   return (
-    <div className="container-fluid app-background pb-4">
+    <div className="container-fluid home pb-4">
         <div className="container pb-4">
 
-        {/* HERO */}
-        
-        <div className="hero-wrapper">
-            <div className="hero-name text-center display-2">
-                Vaseeka Balachandiran
+            {/* ===== Header ===== */}
+            
+            <div className="home-header-wrapper">
+                <div className="home-header-title text-center display-2 fw-medium pt-3 pb-3 mt-0">
+                    Vaseeka Balachandiran
+                </div>
+
+                <div className="home-header-subtitle text-center display-6 pb-4 mb-5">
+                    Software Engineer
+                </div>
             </div>
 
-            <div className="hero-subtitle text-center display-6">
-                Software Engineer
-            </div>
-        </div>
+            {/* ===== About Me Section ===== */}
 
-        {/* ABOUT ME */}
-        <div className="container my-4 section-box">
+            <div className="container home-section-wrapper">
+                <div className="row"> 
+                    <div className="home-section-title text-center align-self-center display-4 fw-medium col-4">
+                        About Me
+                    </div>
 
-            <div className="row"> 
-
-            <div className="section-heading text-center align-self-center display-4 col-4">
-                About Me
-            </div>
-
-            <div className="section-content text-start lead col-8">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Ea, distinctio quod corporis magni amet asperiores temporibus.
-                Quas culpa voluptatem eum saepe ratione?
+                    <div className="home-section-body text-start lead col-8">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ea, distinctio quod corporis magni amet asperiores temporibus.
+                        Quas culpa voluptatem eum saepe ratione?
+                    </div>
+                </div>
             </div>
 
+            {/* ===== How I Work Section ===== */}
+
+            <div className="container home-section-wrapper">
+                <div className="row">
+                    <div className="home-section-body text-start lead col-8">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ea, distinctio quod corporis magni amet asperiores temporibus.
+                        Quas culpa voluptatem eum saepe ratione?
+                    </div>
+
+                    <div className="home-section-title text-center align-self-center display-4 fw-medium col-4">
+                        How I Work
+                    </div>
+                </div>
             </div>
 
-        </div>
+            {/* ===== My Projects Section ===== */}
 
-        {/* HOW I WORK */}
-        <div className="container my-4 section-box">
+            <div className="home-projects-wrapper mt-5">
+                <div className="home-projects-title display-4 fw-medium">
+                    My Projects
+                </div>
 
-            <div className="row">
-
-            <div className="section-content text-start lead col-8">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Ea, distinctio quod corporis magni amet asperiores temporibus.
-                Quas culpa voluptatem eum saepe ratione?
+                <div className="row g-3">
+                    {projects.map((project, index) => (
+                    <Project
+                        key={project.id}
+                        title={project.title}
+                        image={project.image}
+                        link={project.link}
+                        index={index}
+                        topProject={index < 2}
+                    />
+                    ))}
+                </div>
             </div>
-
-            <div className="section-heading text-center align-self-center display-4 col-4">
-                How I Work
-            </div>
-
-            </div>
-
-        </div>
-
-        {/* My Projects Section */}
-        <div className="case-study-section">
-
-            <h2 className="case-study-heading display-5">
-            Case Studies
-            </h2>
-
-            <div className="row g-3">
-
-            {projects.map((project, index) => (
-            <Project
-                key={project.id}
-                title={project.title}
-                image={project.image}
-                link={project.link}
-                index={index}
-                labelTop={index < 2}
-            />
-            ))}
-
-            </div>
-
-        </div>
-
         </div>
     </div>
   );
 }
 
 export default Home;
-
-/*
-function Home() {
-  return (
-    <div className="container">
-        <div className="text-center display-2"><code>Vaseeka Balachandiran</code></div>
-        <div className="text-center display-6"><code>Software Engineer</code></div>
-        <div className="container my-4 border">
-            <div className="row">
-                <div className="text-center align-self-center display-4 col-4">About Me</div>
-                <div className="text-start lead col-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, distinctio quod corporis magni amet asperiores temporibus. Quas culpa voluptatem eum saepe ratione? Quaerat maiores dolorum corrupti voluptatibus quae quibusdam ratione.</div>
-            </div>
-            
-        </div>
-        <div className="container my-3 border">
-            <div className="row">
-                
-                <div className="text-start lead col-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, distinctio quod corporis magni amet asperiores temporibus. Quas culpa voluptatem eum saepe ratione? Quaerat maiores dolorum corrupti voluptatibus quae quibusdam ratione.</div>
-                <div className="text-center align-self-center display-4 col-4">How I Work</div>
-            </div>   
-        </div>
-
-
-        <div className="case-study-section">
-
-            <h2 className="case-study-heading">
-                Case Studies
-            </h2>
-
-            <div className="row mt-3">
-
-                {projects.map((project, index) => (
-                <Project
-                    key={project.id}
-                    title={project.title}
-                    image={project.image}
-                    link={project.link}
-                    titleTop={index < 2}
-                />
-                ))}
-
-            </div>
-
-        </div>
-    </div>
-  );
-}
-
-export default Home;
-
-*/
-
-/*
-
-function Home() {
-  return (
-    <div className="container">
-        <div class="text-center display-2"><code>Vaseeka Balachandiran</code></div>
-        <div class="text-center display-6"><code>Software Engineer</code></div>
-        <div className="container my-4 border">
-            <div className="row">
-                <div class="text-center align-self-center display-4 col-4">About Me</div>
-                <div class="text-start lead col-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, distinctio quod corporis magni amet asperiores temporibus. Quas culpa voluptatem eum saepe ratione? Quaerat maiores dolorum corrupti voluptatibus quae quibusdam ratione.</div>
-            </div>
-            
-        </div>
-        <div className="container my-3 border">
-            <div className="row">
-                
-                <div class="text-start lead col-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, distinctio quod corporis magni amet asperiores temporibus. Quas culpa voluptatem eum saepe ratione? Quaerat maiores dolorum corrupti voluptatibus quae quibusdam ratione.</div>
-                <div class="text-center align-self-center display-4 col-4">How I Work</div>
-            </div>
-            
-        </div>
-
-        <div className="container">
-            <div className="row">
-                <div class="text-center lead col-6 my-3 border">Service Site</div>
-                <div class="text-center lead col-6 my-3 border">Memory Game</div>
-            </div>
-            <div className="row">
-                <div class="text-center lead col-6 border">Service Site Img</div>
-                <div class="text-center lead col-6 border">Memory Game Img</div>
-            </div>
-            <div className="row">
-                <div class="text-center align-self-center display-4 border">Case Studies</div>
-            </div>
-            <div className="row">
-                <div class="text-center lead col-6 border">E-Commerce Site Img</div>
-                <div class="text-center lead col-6 border">Analytics Site Img</div>
-            </div>
-            <div className="row">
-                <div class="text-center lead col-6 my-3 border">E-Commerce Site</div>
-                <div class="text-center lead col-6 my-3 border">Analytics Site</div>
-            </div>
-            
-        </div>
-    </div>
-  );
-}
-
-export default Home;
-*/

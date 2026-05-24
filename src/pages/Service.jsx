@@ -2,7 +2,7 @@ import './ComingSoon.css';
 
 function Service() {
   return (
-    <div className="coming-soon display-2 fw-semibold">Service Site - Coming Soon</div>
+    <code className="coming-soon display-2 fw-medium">Service Site - Coming Soon</code>
   );
 }
 

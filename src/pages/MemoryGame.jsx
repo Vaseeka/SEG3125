@@ -2,7 +2,7 @@ import './ComingSoon.css';
 
 function MemoryGame() {
   return (
-    <div className="coming-soon display-2 fw-semibold">Memory Game - Coming Soon</div>
+    <code className="coming-soon display-2 fw-medium">Memory Game - Coming Soon</code>
   );
 }
 
