@@ -59,7 +59,7 @@ function Home() {
                             with others for high school and university courses in the 
                             past but I'm also currently taking a UI design course to 
                             further improve my web designing capabilities. You can view 
-                            the course <a href="https://www.nngroup.com/" target="_blank">
+                            the course <a href="https://uottawa.brightspace.com/d2l/le/content/592979/Home" target="_blank">
                                 here
                             </a>.
                         </p>

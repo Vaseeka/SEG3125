@@ -4,7 +4,7 @@
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border 0.25s ease;
   cursor: pointer;
 }
 
@@ -20,8 +20,8 @@
 /* ----- Project Card Title ----- */
 
 .project-title {
-  background-color: var(--bg-home-dark);
-  color: var(--text-home-light);
+  background-color: var(--bg-home-light);
+  color: var(--link-home);
   text-align: center;
   padding: 12px;
 }
@@ -34,6 +34,7 @@
 
 .project-card:hover {
   box-shadow: 0 18px 30px rgba(0, 0, 0, 0.18);
+  border: 3px solid var(--link-home);
 }
 
 /* ----- Project Card Image Zoom ----- */
