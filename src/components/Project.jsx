@@ -3,23 +3,23 @@ import './Project.css';
 
 function Project({ title, image, link, index, topProject }) {
   return (
-    <Link to={link} className="text-decoration-none text-dark col-6">
+    <Link to={link} className="projec-link col-6">
       <div className={`project-card pos-${index}`}>
 
-        {/* ===== Top Project ===== */}
+        {/* ===== Top Row Project (project title is displayed on top of image) ===== */}
 
         {topProject && (
-          <div className="project-title display-6">
+          <div className="project-title lead fw-medium">
             {title}
           </div>
         )}
 
         <img src={image} alt={title} className="project-image" />
 
-        {/* ===== Bottom Project ===== */}
+        {/* ===== Bottom Row Project (project title is displayed under the image) ===== */}
 
         {!topProject && (
-          <div className="project-title display-6">
+          <div className="project-title lead fw-medium">
             {title}
           </div>
         )}

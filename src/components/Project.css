@@ -26,41 +26,46 @@
   padding: 12px;
 }
 
-/* add this so spacing feels consistent */
 .project-title:first-child {
   border-bottom: 1px solid rgba(255,255,255,0.15);
 }
 
-/* shared hover shadow */
+/* ===== Project Card Hover Shadow Effect ===== */
+
 .project-card:hover {
   box-shadow: 0 18px 30px rgba(0, 0, 0, 0.18);
 }
 
-/* image zoom */
+/* ===== Project Card Image Zoom ===== */
+
 .project-card:hover .project-image {
   transform: scale(1.05);
 }
 
-/* ========================= */
-/* DIAGONAL HOVER POSITIONS */
-/* ========================= */
+/* ================================================== */
+/* Project Card Unique Diagonal Hover Movement Effect */
+/* ================================================== */
 
-/* top-left */
+/* ===== Top-Left Project Card ===== */
+
 .pos-0:hover {
   transform: translate(-12px, -12px) scale(1.03);
 }
 
-/* top-right */
+/* ===== Top-Right Project Card ===== */
+
 .pos-1:hover {
   transform: translate(12px, -12px) scale(1.03);
 }
 
-/* bottom-left */
+/* ===== Bottom-Left Project Card ===== */
+
 .pos-2:hover {
   transform: translate(-12px, 12px) scale(1.03);
 }
 
-/* bottom-right */
+/* ===== Bottom-Right Project Card ===== */
+
 .pos-3:hover {
   transform: translate(12px, 12px) scale(1.03);
 }
