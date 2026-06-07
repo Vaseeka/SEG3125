@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Service Site",
     "image": "/images/service.jpg",
-    "link": "/service"
+    "link": "https://vaseeka-service-site.netlify.app/"
   },
   {
     "id": 2,
